@@ -33,8 +33,11 @@ cd versa-case-study
 3. Starting the application
 
 ```bash
-# Starts the application
+# Starts the application which uses node command under the hood
 npm run start
+
+# Alternatively, you can run the node command directly without going through NPM.
+node src/index.js
 ```
 
 ### Just In Case
